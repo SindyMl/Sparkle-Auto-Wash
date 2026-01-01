@@ -2,6 +2,8 @@
 
 A modern, responsive single-page application (SPA) for a premium car wash business with a unique watery, spa-like aesthetic.
 
+🌐 **Live Site**: [https://sindyml.github.io/Sparkle-Auto-Wash/](https://sindyml.github.io/Sparkle-Auto-Wash/)
+
 ## Features
 
 - **Responsive Design**: Fully responsive across all devices (mobile, tablet, desktop)
@@ -79,6 +81,26 @@ npm run build
 ```
 
 The build files will be created in the `build/` directory.
+
+## Deployment
+
+### Automatic Deployment
+The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.
+
+### Manual Deployment
+To manually deploy to GitHub Pages:
+
+1. Install dependencies (if not already installed):
+```bash
+npm install
+```
+
+2. Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
+
+This will build the project and deploy it to the `gh-pages` branch, making it live at [https://sindyml.github.io/Sparkle-Auto-Wash/](https://sindyml.github.io/Sparkle-Auto-Wash/)
 
 ## Features Breakdown
 

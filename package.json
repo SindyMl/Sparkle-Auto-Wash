@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Luxury car wash website with watery spa-like design",
   "private": true,
+  "homepage": "https://sindyml.github.io/Sparkle-Auto-Wash",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -12,7 +13,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   },
   "eslintConfig": {
     "extends": [
